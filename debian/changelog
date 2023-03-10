@@ -1,0 +1,93 @@
+gooroom-client-server-register (1.3.0+grm3u1tos2) tmax-unstable; urgency=medium
+
+  [ taisun_park ]
+  * [e4fb6f3] debian/control maintainer, homepage 수정
+
+ -- taisun_park <taisun_park@tmax.co.kr>  Thu, 10 Mar 2023 13:46:00 +0900
+
+gooroom-client-server-register (1.3.0+grm3u1tos1) tmax-unstable; urgency=medium
+
+  [ taisun_park ]
+  * [c0e51b7] (MOIS) MASTER 조인 시 SLAVE CONF 처리 변경
+  * [830b022] [chore] gdm에 대한 처리 추가 - user_id 가져오는 부분 gdm에 대한 처리 추가
+
+  [ jeonghan_bae ]
+  * [8990075] symlink parameter edit
+  * [bd3d87c] gcsr_slave and symlink logic added
+
+ -- taisun_park <taisun_park@tmax.co.kr>  Mon, 07 Feb 2022 16:40:00 +0900
+
+gooroom-client-server-register (1.3.0+grm3u1) unstable; urgency=medium
+
+  [ seolhee.sun ]
+  * [c8b1d546] gooroom-3.0 UI update
+  * [23d0e648] StaticCodeAnalysis warning modify
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 04 Dec 2021 21:24:18 +0900
+
+gooroom-client-server-register (1.0.8+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [11f969ab] Change sequence (CSR - getHost) Add kcmvp module & Read kcmvp_on_off from headers
+  * [0871d376] 'ip_type' Bug fix. The bug that occurs when gcsr receive a  location on root CA path
+  * [39d2a96c] Remove libMagicCrypto *.so files
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 09:44:30 +0900
+
+gooroom-client-server-register (1.0.7+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [f7df8df9] Save gkm-server public key on /etc/ssl/private
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 20 Nov 2020 10:37:18 +0900
+
+gooroom-client-server-register (1.0.6+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [6f2e9b47] Changed the organizational-unit(on) value not necessary in cli mode.
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 31 Jul 2020 10:40:01 +0900
+
+gooroom-client-server-register (1.0.5+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [eecd214c] Support IPv6 for server
+  * [65dcaba9] bug fixed 2087
+  * [8541d75b] bug fixed 2429
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 12:45:26 +0900
+
+gooroom-client-server-register (1.0.4+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [ac950e85] Support IPv6
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 17 Feb 2020 10:23:58 +0900
+
+gooroom-client-server-register (1.0.3+grm2u1) unstable; urgency=medium
+
+  [ junsungc ]
+  * [9755a537] fixed 0001826
+  * [43b588f1] fixed 0001830
+  * [fb7181c3] Change common-name(cn) value. [mac -> mac+hash(hardware SN)]
+  * [48449958] Delete the password_system_type UI. The password_system_type in the gcsr.conf file contains [sha256]
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 11 Feb 2020 09:53:03 +0900
+
+gooroom-client-server-register (1.0.2+grm2u1) unstable; urgency=medium
+
+  * Initial Release
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 03 Dec 2019 12:29:23 +0900

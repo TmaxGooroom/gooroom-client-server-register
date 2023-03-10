@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#
+# Configuration for automatic GPMS registration script
+# 
+# Use this configuration to create gcsr_auto.conf in the same directory
+# to enable automatic registration to Gooroom Platform Management Server
+#
+
+#
+# set 'Yes' to enable automatic GPMS registration
+ENABLE_AUTO_REGI=No
+
+#
+# Domain of your GKM(Gooroom Key Management) server
+GKM_SERVER=gkm.gooroom.kr
+
+#
+# Registration key for the client given from gpms admin
+REG_KEY=b7ae6455-3f14-43da-ab05-0b120e44fc05
+
+# If you want to set your client NAME manually, do it!
+#CLIENT_NAME=YOUR_CLIENT_NAME
